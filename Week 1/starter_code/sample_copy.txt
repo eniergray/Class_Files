@@ -1,12 +1,12 @@
 
-Sample Content
+Sample Content11111
 ——-
 
 ABOUT ME PAGE
 
 I ENJOY LIFE AS A DEVELOPER
 
-I'm Joe Johnson, a Developer based in NYC. I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites.
+I'm Matt Grenier, a Developer based in NYC. I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites.
 
 
 RESUME PAGE
@@ -17,7 +17,7 @@ I recently graduated from a Front-End Web Development course at General Assembly
 		
 Relevant Experience
 		
-Web Developer, Relaxr 2015 - present
+Web Developer, Web Developement, Inc 2015 - present
 Developed a multi-column layout blog, landing page, and contact forms that render on mobile devices.
 
 Web Developer, Startup Matchmaker 2015 - present
