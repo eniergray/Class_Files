@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- This is my new css file -->
 <html lang="en">
   <head>
       <meta charset="utf-8">
@@ -8,6 +9,69 @@
     <title>Joe Johnson | Portfolio</title>
 
     <!-- external CSS link goes here! -->
+<!-- I will include this css link later -->
+
+    <style> 
+      /*This is the comment for css*/
+      body{
+
+        font-family: 'Arial', sans-serif;
+
+      }
+
+      nav {
+
+        color: gray;
+        text-align: center;
+      }
+      
+      h1 {
+        text-align: center;
+
+      }
+      hr{
+        background-color: black;
+        height: 5px;  
+        /*padding: 20px;*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 20px;*/
+        /*padding-right: 70px;*/
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+/*images are inline object - others are block objects*/
+     img{
+      /*text-align: center; - need to find a different way*/
+        
+     }
+
+    /*article{
+      text-align: center;
+    } */
+    
+    div#image-wrap{
+      text-align: center;
+     }
+ 
+      nav a {
+
+        color: gray;
+
+  }
+    /* typeless selector */
+      afacebook{ 
+
+        color: yellow;
+  }     
+
+      /* typed selector */
+      a#facebook{ 
+
+        color: green;
+  }
+    </style>
+
+
 
   </head>
   <body>
@@ -20,15 +84,22 @@
     <h1>Joe Johnson</h1>
 
     <hr>
-
-    <img src="https://www.libstash.com/public/avatars/default.png" alt="Avatar">
-    <h3>I Enjoy Life as a Developer</h3>
-    <p>I'm Joe Johnson, a Developer based in NYC.  I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites. </p>
-
+<!-- image tag is inline - meaning they will go right next to each other -->
+    <article>
+      
+      <div id="image-wrap">
+        <img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg" alt="Avatar">
+        <img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg" alt="Avatar">
+    </div>
+      <!-- h3 is stacked. -->
+      <h3>I Enjoy Life as a Developer</h3>
+      <h3>I Enjoy Life as a Developer</h3>
+      <p>I'm Joe Johnson, a Developer based in NYC.  I Have ten years of experience in the graphic design world, specializing in the creation of responsive websites. </p>
+    </article>
     <hr>
 
       <nav>
-      <a href="http://facebook.com/">Facebook</a>
+      <a id = "facebook" href="http://facebook.com/">Facebook</a>
       |
       <a href="http://twitter.com/">Twitter</a>
       |
