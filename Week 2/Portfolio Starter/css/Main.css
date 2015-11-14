@@ -1,6 +1,7 @@
   body{
 
-    font-family: 'Arial', sans-serif;
+    /*font-family: 'Arial', sans-serif;*/
+    font-family: 'times', serif; 
 
   }
 
@@ -14,6 +15,16 @@
     text-align: center;
 
   }
+  h3 {
+    font-family: 'Courier New', Courier, Monospace;
+
+  }
+
+  article h3{
+    font-family: 'Times', serif;
+  }
+
+
   hr{
     background-color: black;
     height: 5px;  
@@ -43,6 +54,11 @@
     color: gray;
 
   }
+
+  /*p{*/
+    /*color: red !important;*/
+  /*}*/
+  
   /* typeless selector */
   afacebook{ 
 
@@ -52,5 +68,22 @@
   /* typed selector */
   a#facebook{ 
 
-    color: green;
+    color: #3b5998;
   }
+  
+  a#twitter{
+    color: #55acee;
+  }
+
+  a#instagram{
+    color: #125688;
+  }
+
+  a#linkedin{
+    color: #007bb5
+  }
+
+  /*h4{*/
+    /*text-align: center;*/
+    /*background-color: rgba(255, 0, 0, 0.25);*/
+  /*}*/
