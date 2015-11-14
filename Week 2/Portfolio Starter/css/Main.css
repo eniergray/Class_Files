@@ -1,0 +1,56 @@
+  body{
+
+    font-family: 'Arial', sans-serif;
+
+  }
+
+  nav {
+
+    color: gray;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+
+  }
+  hr{
+    background-color: black;
+    height: 5px;  
+    /*padding: 20px;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-right: 70px;*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  /*images are inline object - others are block objects*/
+  img{
+  /*text-align: center; - need to find a different way*/
+
+  }
+
+  /*article{
+  text-align: center;
+  } */
+
+  div#image-wrap{
+    text-align: center;
+  }
+
+  nav a {
+
+    color: gray;
+
+  }
+  /* typeless selector */
+  afacebook{ 
+
+    color: yellow;
+  }     
+
+  /* typed selector */
+  a#facebook{ 
+
+    color: green;
+  }
