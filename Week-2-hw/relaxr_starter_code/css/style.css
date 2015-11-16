@@ -1,0 +1,230 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+a.button {
+  background-color: #f9e42e;
+  padding: 6px;
+  border-radius: 5px;
+
+/*a.click {
+  background-color: #033048;
+  padding: 10px;
+  border-radius: 10px;
+
+  }*/
+
+
+}
+
+section#section-1{
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+section#section-1 h1{
+  font-size: 24px;
+  text-align: left;
+  font-weight: 800;
+}
+
+section#section-1 h2{
+  font-size: 45px;
+  text-align: center;
+  margin: 100px;
+}
+
+section#section-1 a.button{
+  margin: 100px;
+  display: inline-block;
+}
+
+section#section-2{
+background-color: #f0efef;
+background-size: cover;
+padding: 20px;
+color: white;
+text-align: center;
+}
+
+section#section-2 h3{
+  color: black;
+  font-size: 45px;
+  text-align: left;
+  font-weight: 600;
+
+}
+ section#section-2 p{
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 300;
+
+
+ }
+
+  section#section-2 ul li{
+  color: black;
+  font-size: 13px;
+  text-align: left;
+  font-style: 300v;
+
+}
+
+  section#section-3 {
+  background-color: #033048;
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  }
+
+/*section#section-3 blockquote{*/
+  /*color:  white;*/
+  /*font-size: 18px;*/
+  /*font-style: 300italic;*/
+  /*padding: 20px;*/
+
+/*}*/
+
+section#section-3 blockquote {
+    /*max-width:390px;*/
+    color: white;
+    font: italic 18px Open-Sans;
+    text-align: center;
+    padding: 100px; 
+    /*border-left: 3px solid #897860;*/
+    /*padding-left: 5px;*/
+ /*   margin-left: 40px; */
+}
+
+section#section-3 p{
+  color:  white;
+  font-size: 18px;
+  font-style: 800;
+
+}
+
+section#section-4 a.click{
+    background-color: #033048;
+    color: white;
+    margin: 5px;
+    padding: 10px 30px 10px 30px;
+  /*  border-radius: 5px;*/
+    display: inline-block;
+    /*font-size: 12px;*/
+    /*font-weight: 800;*/
+    /*font-family: OpenSans;*/
+    font-family: 'Open Sans';
+    font-size: 24px;
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    font-weight: 800;
+    /*line-height: 26.4px;*/
+}
+
+
+section#section-4{
+    background-color: #f9e42e;
+    background-size: cover;
+    padding: 50px;
+    font-size: 12px;
+    font-family: Open-Sans;
+    font-style: extra-bold;
+    color: white;
+    text-align: center;
+}
+
+section#section-5{
+    background-color: #033048;
+  }
+
+ section#section-5 h3{
+   text-align: center;
+   color: yellow;
+   font-size: 24px;
+   font-weight: 900;
+  }
+
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
