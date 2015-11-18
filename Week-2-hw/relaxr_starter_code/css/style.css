@@ -90,59 +90,63 @@ section#section-1{
 }
 
 section#section-1 h1{
-  font-size: 24px;
-  text-align: left;
-  font-weight: 800;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 800;
 }
 
 section#section-1 h2{
-  font-size: 45px;
-  text-align: center;
-  margin: 100px;
+    font-size: 45px;
+    text-align: center;
+    margin: 100px;
 }
 
 section#section-1 a.button{
-  margin: 100px;
-  display: inline-block;
+    margin: 100px;
+    padding: 10px;
+    display: inline-block;
 }
 
 section#section-2{
-background-color: #f0efef;
-background-size: cover;
-padding: 20px;
-color: white;
-text-align: center;
+    background-color: #f0efef;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 
 section#section-2 h3{
-  color: black;
-  font-size: 45px;
-  text-align: left;
-  font-weight: 600;
+    color: black;
+    font-size: 45px;
+    text-align: left;
+    font-weight: 600;
 
 }
  section#section-2 p{
-  color: black;
-  font-size: 20px;
-  text-align: left;
-  font-weight: 300;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
 
 
  }
 
-  section#section-2 ul li{
-  color: black;
-  font-size: 13px;
-  text-align: left;
-  font-style: 300v;
+section#section-2 ul li{
+    color: black;
+    font-size: 13px;
+    text-align: left;
+    font-style: 300;
+    margin-left: 50px;
+    list-style-type: circle;
+    
 
 }
 
-  section#section-3 {
-  background-color: #033048;
-  background-size: cover;
-  padding: 50px;
-  text-align: center;
+section#section-3 {
+    background-color: #033048;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
   }
 
 /*section#section-3 blockquote{*/
@@ -156,12 +160,15 @@ section#section-2 h3{
 section#section-3 blockquote {
     /*max-width:390px;*/
     color: white;
-    font: italic 18px Open-Sans;
+    font: italic 18px 'OpenSans';
     text-align: center;
     padding: 100px; 
     /*border-left: 3px solid #897860;*/
     /*padding-left: 5px;*/
  /*   margin-left: 40px; */
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 section#section-3 p{
@@ -171,10 +178,21 @@ section#section-3 p{
 
 }
 
+section#section-4{
+    background-color: #f9e42e;
+    background-size: cover;
+    padding: 50px;
+    font-size: 12px;
+    font-family: "Open-Sans";
+    font-style: extra-bold;
+    color: white;
+    text-align: center;
+}
+
 section#section-4 a.click{
     background-color: #033048;
     color: white;
-    margin: 5px;
+    /*margin: 5px;*/
     padding: 10px 30px 10px 30px;
   /*  border-radius: 5px;*/
     display: inline-block;
@@ -187,18 +205,7 @@ section#section-4 a.click{
     /*font-variant: normal;*/
     font-weight: 800;
     /*line-height: 26.4px;*/
-}
-
-
-section#section-4{
-    background-color: #f9e42e;
-    background-size: cover;
-    padding: 50px;
-    font-size: 12px;
-    font-family: Open-Sans;
-    font-style: extra-bold;
-    color: white;
-    text-align: center;
+    border-radius: 5px;
 }
 
 section#section-5{
@@ -211,8 +218,23 @@ section#section-5{
    font-size: 24px;
    font-weight: 900;
   }
+  
 
 
+  section#section-5 img{
+    /*margin: 40px 40px 40px 40px;*/
+    border: 1px solid white;
+    border-radius: 20px;
+
+  }
+
+  section#section-5 p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+
+  }
 header {
 
 }
