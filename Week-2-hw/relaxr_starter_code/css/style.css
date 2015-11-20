@@ -68,10 +68,12 @@ body {
 
 a.button {
   background-color: #f9e42e;
-  padding: 6px;
-  border-radius: 5px;
+  /*padding: 6px;*/
+  border-radius: 10px;
+  font-size: 12px;
+  padding-bottom: 20px;
 
-/*a.click {
+a.click {
   background-color: #033048;
   padding: 10px;
   border-radius: 10px;
@@ -93,6 +95,7 @@ section#section-1 h1{
     font-size: 24px;
     text-align: left;
     font-weight: 800;
+
 }
 
 section#section-1 h2{
@@ -103,22 +106,32 @@ section#section-1 h2{
 
 section#section-1 a.button{
     margin: 100px;
-    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    /*padding-bottom: 20px;*/
     display: inline-block;
-}
+    color: black;
+    font-weight: bold;
+    font-size: 24px; 
+    /*margin-bottom: 10px; */
 
+
+}
 section#section-2{
     background-color: #f0efef;
     background-size: cover;
     padding: 20px;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 section#section-2 h3{
     color: black;
     font-size: 45px;
     text-align: left;
+    padding-bottom: 10px;
     font-weight: 600;
 
 }
@@ -127,6 +140,8 @@ section#section-2 h3{
     font-size: 20px;
     text-align: left;
     font-weight: 300;
+    border-spacing: 10px;
+    padding: 20px;
 
 
  }
@@ -137,16 +152,21 @@ section#section-2 ul li{
     text-align: left;
     font-style: 300;
     margin-left: 50px;
-    list-style-type: circle;
-    
+    padding: 7px;
+
+/*    list-style-type: circle;
+*/    
 
 }
 
 section#section-3 {
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
     background-color: #033048;
     background-size: cover;
     padding: 50px;
     text-align: center;
+    ba
   }
 
 /*section#section-3 blockquote{*/
@@ -181,10 +201,10 @@ section#section-3 p{
 section#section-4{
     background-color: #f9e42e;
     background-size: cover;
-    padding: 50px;
+    padding: 40px;
     font-size: 12px;
     font-family: "Open-Sans";
-    font-style: extra-bold;
+    font-weight: bolder;
     color: white;
     text-align: center;
 }
@@ -206,7 +226,10 @@ section#section-4 a.click{
     font-weight: 800;
     /*line-height: 26.4px;*/
     border-radius: 5px;
+    text-decoration: none;
 }
+
+#
 
 section#section-5{
     background-color: #033048;
@@ -240,8 +263,23 @@ header {
 }
 
 footer {
+    background-color: black;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    /*max-height: 300px;*/
+    padding-top: 200px;
 
 }
+
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+
+
+  }
 
 /******************************************
 /* ADDITIONAL STYLES
