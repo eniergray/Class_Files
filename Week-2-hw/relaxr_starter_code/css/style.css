@@ -61,8 +61,9 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   height: 500px;
+  text-align: center;
 
 }
 
@@ -78,7 +79,7 @@ a.click {
   padding: 10px;
   border-radius: 10px;
 
-  }*/
+  }
 
 
 }
@@ -91,10 +92,10 @@ section#section-1{
     text-align: center;
 }
 
-section#section-1 h1{
-    font-size: 24px;
+h1.logo {     /*Both relaxr logo's will inherit the same style*/
+    font-size: 48px;
     text-align: left;
-    font-weight: 800;
+    font-weight: 700;
 
 }
 
@@ -191,7 +192,7 @@ section#section-3 blockquote {
 
 }
 
-section#section-3 p{
+section#section-3 span{
   color:  white;
   font-size: 18px;
   font-style: 800;
@@ -235,11 +236,11 @@ section#section-5{
     background-color: #033048;
   }
 
- section#section-5 h3{
-   text-align: center;
-   color: yellow;
-   font-size: 24px;
-   font-weight: 900;
+ /*section#section-5 h3{*/
+   /*text-align: center;*/
+   /*color: yellow;*/
+   /*font-size: 24px;*/
+   /*font-weight: 900;*/
   }
   
 
@@ -248,6 +249,7 @@ section#section-5{
     /*margin: 40px 40px 40px 40px;*/
     border: 1px solid white;
     border-radius: 20px;
+    /*height: 30px;*/
 
   }
 
@@ -268,22 +270,180 @@ footer {
     font-size: 10px;
     font-weight: 600;
     /*max-height: 300px;*/
-    padding-top: 200px;
+    padding-top: 100px;
+
+}
+
+  footer h3{  
+   text-align: center;
+   color: yellow;
+   font-size: 24px;
+   font-weight: 900;
+   padding-bottom: 30px;
+   margin-top: 0px;
+
+  }
+
+footer li{
+    display: inline-block;
+    /*padding: 20px;*/
+    width: 105px;
+    padding: 28px 0px;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+footer ul li:hover {
+  background-color: red;
+  transform: scale(1.2) rotate(360deg);
+  /*transform:  rotate(360deg);*/
+
+
+}
+footer ul li img{
+    height: 30px;
+
 
 }
 
 footer p{
     color: white;
     text-align: center;
-    font-size: 10px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 25px;
+    padding-top: 20px;
 
 
   }
 
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+div#blog header {
+  background-color: #033048;
+  /*background-size: cover; - only works with images*/
+  padding: 10px 0;
+
+ }
+
+ div#blog header div.inner{
+  width: 1200px;
+  margin: 0 auto;
+
+ }
+
+div#blog header h1{
+  color: white;
+  display: inline-block;
+
+}
+
+div#blog header nav{
+  float: right;
+  margin-top: 12px;
+}
+
+
+div#blog header nav ul li{
+  display: inline-block;
+  color: white;
+  margin-right: 10px; 
+  margin-right: 10px;
+
+}
+
+div#blog header nav ul li a{
+  display: inline-block;
+  color: #f9e42e;
+  text-decoration: none;
+  
+}
+
+div#blog section#articles{
+  border: 2px solid red;
+  display: inline-block;
+  width: 900px;
+  vertical-align: top;
+}
+
+div#blog aside{
+  border: 2px solid blue;
+  display: inline-block;
+  width: 290px;
+  vertical-align: top;
+
+}
+
+div#blog div.content-wrap{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+
+section#articles h2{
+font-size: 25px;
+
+
+}
+div#blog section#articles article div.read-more{
+  margin-top: 20px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 700;
+
+
+}
+
+div#blog section#articles article em{
+float: left;
+font-size: 80px;
+line-height: 65px;
+padding-top: 4px;
+padding-right: 8px;
+padding-left: 3px;
+font-weight: 600;
+}
+
+ aside h3{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+
+
+}
+
+aside nav ul li{
+  text-decoration: none;
+
+}
+
+a.click{
+    background-color: #033048;
+    color: white;
+    /*margin: 5px;*/
+    padding: 10px 30px 10px 30px;
+  /*  border-radius: 5px;*/
+    display: inline-block;
+    /*font-size: 12px;*/
+    /*font-weight: 800;*/
+    /*font-family: OpenSans;*/
+    font-family: 'Open Sans';
+    font-size: 24px;
+    /*font-style: normal;*/
+    /*font-variant: normal;*/
+    font-weight: 800;
+    /*line-height: 26.4px;*/
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
 
 
 
