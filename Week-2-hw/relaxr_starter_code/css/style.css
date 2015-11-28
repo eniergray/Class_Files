@@ -415,17 +415,25 @@ div#blog section#articles article em{
 }
 
  aside h3{
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-weight: 800;
+  margin-bottom: 10px;
 
 
 }
+
 
 aside nav ul li a{
   text-decoration: none;
   color: #6E7377;
   font-size: 15px;
+
+}
+
+aside div.inner-lower h3 {
+  margin-top: 25px;
+  padding-bottom: 15px;
 
 }
 
@@ -457,6 +465,7 @@ div#blog section#signup  {
     padding-left: 500px;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 10px;
     
 
 }
