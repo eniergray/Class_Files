@@ -360,6 +360,7 @@ div#blog header nav ul li{
 div#blog header nav ul li a{
   display: inline-block;
   color: #f9e42e;
+  font-size: 15px;
   text-decoration: none;
   
 }
@@ -376,6 +377,8 @@ div#blog aside{
   display: inline-block;
   width: 290px;
   vertical-align: top;
+  height: 1050px
+
 
 }
 
@@ -398,16 +401,17 @@ div#blog section#articles article div.read-more{
   font-weight: 700;
 
 
+
 }
 
 div#blog section#articles article em{
-float: left;
-font-size: 80px;
-line-height: 65px;
-padding-top: 4px;
-padding-right: 8px;
-padding-left: 3px;
-font-weight: 600;
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
 }
 
  aside h3{
@@ -420,6 +424,8 @@ font-weight: 600;
 
 aside nav ul li a{
   text-decoration: none;
+  color: #6E7377;
+  font-size: 15px;
 
 }
 
@@ -445,6 +451,19 @@ a.click{
 }
 
 
+div#blog section#signup  {
+    background-color: yellow;
+    background-size: cover;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 
+}
 
+/*div#blog section#signup div.sign-up-now{*/
+  /*background-color: #033048;*/
+  /*border-radius: 5px;*/
+  /*font-size: 12px;*/
 
+}
