@@ -271,13 +271,14 @@ footer {
     font-weight: 600;
     /*max-height: 300px;*/
     padding-top: 100px;
+    width: 100%;
 
 }
 
   footer h3{  
    text-align: center;
    color: yellow;
-   font-size: 24px;
+   font-size: 34px;
    font-weight: 900;
    padding-bottom: 30px;
    margin-top: 0px;
@@ -287,9 +288,9 @@ footer {
 footer li{
     display: inline-block;
     /*padding: 20px;*/
-    width: 105px;
-    padding: 28px 0px;
-    border: 5px solid white;
+    width: 60px;
+    padding: 15px 0px;
+    border: 3px solid white;
     border-radius: 50%;
     transition: all 1s;
 
@@ -303,8 +304,7 @@ footer ul li:hover {
 
 }
 footer ul li img{
-    height: 30px;
-
+    height: 20px;
 
 }
 
@@ -328,11 +328,12 @@ div#blog header {
   background-color: #033048;
   /*background-size: cover; - only works with images*/
   padding: 10px 0;
+  /*width: 90%;*/
 
  }
 
  div#blog header div.inner{
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 
  }
@@ -353,8 +354,6 @@ div#blog header nav ul li{
   display: inline-block;
   color: white;
   margin-right: 10px; 
-  margin-right: 10px;
-
 }
 
 div#blog header nav ul li a{
@@ -368,16 +367,17 @@ div#blog header nav ul li a{
 div#blog section#articles{
   border: 2px solid red;
   display: inline-block;
-  width: 900px;
+  width: 700px;
   vertical-align: top;
 }
 
 div#blog aside{
   border: 2px solid blue;
   display: inline-block;
-  width: 290px;
+  width: 280px;
   vertical-align: top;
-  height: 1050px
+  height: 1050px;
+  padding-top: 15px;
 
 
 }
@@ -388,9 +388,11 @@ div#blog div.content-wrap{
 
 }
 
-
 section#articles h2{
-font-size: 25px;
+font-size: 30px;
+font-weight: bold;
+color: black;
+padding-top: 15px;
 
 
 }
@@ -399,10 +401,20 @@ div#blog section#articles article div.read-more{
   text-align: right;
   font-size: 20px;
   font-weight: 700;
+  text-decoration: none;
 
 
 
 }
+
+div#blog section#articles article div.read-more a {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: gray;
+
+}
+
 
 div#blog section#articles article em{
   float: left;
@@ -412,6 +424,23 @@ div#blog section#articles article em{
   padding-right: 8px;
   padding-left: 3px;
   font-weight: 600;
+}
+
+aside{
+  padding: 0 5px 0 5px;
+}
+
+aside ul li {
+  text-decoration: none;
+  color: gray;
+
+}
+
+aside div.read-more a{
+  font-weight: bold;
+  text-decoration: none;
+  color: gray;
+
 }
 
  aside h3{
@@ -466,6 +495,7 @@ div#blog section#signup  {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 10px;
+    width: 100%;
     
 
 }
